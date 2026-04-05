@@ -30,7 +30,6 @@ O foco é identificar o impacto real do **"efeito bola de neve"** (*snowball*) n
 
 ## 📝 Próximos Passos
 
-- [ ] Finalizar o pipeline de extração de partidas (Match-V5)
 - [ ] Realizar a limpeza e normalização dos dados no R
 - [ ] Treinar e comparar modelos de classificação (Random Forest, XGBoost)
 - [ ] Documentar resultados finais e métricas de acurácia
