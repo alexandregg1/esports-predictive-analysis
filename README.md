@@ -34,9 +34,3 @@ O foco é identificar o impacto real do **"efeito bola de neve"** (*snowball*) n
 - [ ] Treinar e comparar modelos de classificação (Random Forest, XGBoost)
 - [ ] Documentar resultados finais e métricas de acurácia
 
----
-
-## 👨‍💻 Desenvolvido por
-
-**Igor Alexandre**  
-Projeto para fins acadêmicos e portfólio.
