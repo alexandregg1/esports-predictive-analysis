@@ -1,1 +1,10 @@
 .env
+
+
+# Dados baixados da API (JSONs brutos)
+data/matches/
+data/timelines/
+
+# Arquivos Python compilados
+script/__pycache__
+
