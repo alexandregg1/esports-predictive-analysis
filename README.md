@@ -22,7 +22,9 @@ O foco é identificar o impacto real do **"efeito bola de neve"** (*snowball*) n
 
 ## 📂 Estrutura Atual
 ├── data_extraction.py # Script para coleta de dados via API
+
 ├── data_processing.R # Script (em breve) para tratamento e modelagem em R
+
 └── /data # Repositório dos datasets gerados em CSV
 
 
