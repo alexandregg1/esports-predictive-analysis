@@ -194,7 +194,7 @@ ggplot(dados_finais, aes(y = gold_diff)) +
 
 ##Conclusões gerais do Insight
 
-#Os dados provam que no topo do rankin, a *Sinergia e o Impacto de Duplas* são os pilares da vitória, superando a importancia do acumulo precoce de recursos. Enquanto o time Azul foca em métricas individuais (CS e Kilss), o time Vermelho demonstra maior eficiencia na conversão de objetivos neutros e na coleta de recompensas (shut downs), vencendo 53.6% das partida mesmo que sem dominancia economica inicial. O "xadrez" de objetivos aos 5 minutos mostram que o bonus de combate fornecido pelos dragões ainda prevalece sobre o potencial de cerco das Vastilarvas. 
+# Os dados provam que no topo do rankin, a *Sinergia e o Impacto de Duplas* são os pilares da vitória, superando a importancia do acumulo precoce de recursos. Enquanto o time Azul foca em métricas individuais (CS e Kilss), o time Vermelho demonstra maior eficiencia na conversão de objetivos neutros e na coleta de recompensas (shut downs), vencendo 53.6% das partida mesmo que sem dominancia economica inicial. O "xadrez" de objetivos aos 5 minutos mostram que o bonus de combate fornecido pelos dragões ainda prevalece sobre o potencial de cerco das Vastilarvas. 
 
 ##Exportando o CSV tratado
 ```{r}
@@ -202,6 +202,6 @@ write.csv(dados_finais, "../data/matches_processed.csv", row.names = FALSE)
 
 # Verificação final de integridade
 message("Linhas originais: ", nrow(dados))
-message("Linhas após limpeza: ", nrow(dados_finais)
+message("Linhas após limpeza: ", nrow(dados_finais))
 ```
 
