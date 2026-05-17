@@ -8,3 +8,5 @@ data/timelines/
 # Arquivos Python compilados
 script/__pycache__
 
+.idea
+

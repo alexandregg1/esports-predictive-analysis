@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
     seen_match_ids = set()
     total_saved    = 0
-    NUM_PLAYERS    = 50
+    NUM_PLAYERS    = 100
 
     print(f"Processando {NUM_PLAYERS} jogadores Challenger...")
 
@@ -155,7 +155,7 @@ if __name__ == "__main__":
 
         try:
             # NAO PRECISA MAIS CONVERTER summonerId -> puuid
-            match_ids = get_match_ids(puuid, count=20)
+            match_ids = get_match_ids(puuid, count=50)
             time.sleep(1.2)
             
             print(f"  -> {len(match_ids)} partidas encontradas")
