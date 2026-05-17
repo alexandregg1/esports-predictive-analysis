@@ -9,4 +9,6 @@ data/timelines/
 script/__pycache__
 
 .idea
+.RData
+.Rhistory
 
