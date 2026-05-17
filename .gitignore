@@ -9,5 +9,5 @@ data/timelines/
 script/__pycache__
 
 .idea
-.RData
-.Rhistory
+script/.RData
+script/.Rhistory
