@@ -92,13 +92,13 @@ Teste	89.1%
 O modelo de Machine Learning conseguiu atingir 89% de acurácia usando apenas os dados dos primeiros 10 minutos de jogo. Isso confirma que, no cenário brasileiro de mais  alto nivel o Challenger, o desempenho inicial no começo das partidas tem um peso decisivo pro resultado final da partida, com o efeito de snowball (bola de neve) sendo real e possivel de mensurar.
 
 ### As features mais importantes 
-A análise de importância do XGBoost revela que estas são as variáveis com maior poder preditivo: 
-Feature	        |        Significado            |  	Impacto
-gold_diff       | Diferença de ouro total       |	Quanto maior a vantagem de ouro do time azul, maior a probabilidade de vitória
-gold_sum_lanes  | Soma do ouro nas 5 rotas      | 	Reforça a importância da vantagem econômica distribuída
-dragon_diff 	| Diferença de dragões abatidos |	Dragões conferem bónus permanentes e indicam controle do rio
-voidgrubs_diff  | Diferença de voidgrubs        | 	Afeta a pressão nas torres e o ritmo de jogo
-kills_diff	    | Diferença de abates           | 	Abates geram ouro e experiência, alimentando o snowball
+| Features | Significado | Impacto |
+|-------|------------|-----------|
+| gold_diff | Diferença de ouro Total | Quanto maior a vantagem de ouro do time azul, maior a probabilidade de vitória |
+| gold_sum_lanes | Soma de ouro nas 5 rotas | Reforça a importância da vantagem econômica distribuída |
+| dragon_diff | Diferença de dragões abatidos | Dragões conferem bónus permanentes e indicam controle do rio, que resulta em um controle do mapa |
+| voidgrubs_diff | Diferença de vastilarvas(voidgrubs) abatidos | Afeta a pressão nas torres e o ritmo de jogo |
+| kills_diff | Diferença de abates | Abates geram ouro e experiência, alimentando o snowball |
 
 Interpretação:
 
