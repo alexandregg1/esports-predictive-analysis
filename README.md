@@ -25,6 +25,7 @@ Com base em dados da API oficial da Riot Games, foi construído um modelo de cla
 ---
 
 ## 📂 Estrutura do Projeto
+```
 ├── data/
 │   ├── matches_10min.csv          # Dados brutos extraídos (10 min)
 │   └── matches_processed.csv      # Dados tratados e enriquecidos
@@ -37,6 +38,7 @@ Com base em dados da API oficial da Riot Games, foi construído um modelo de cla
 │   ├── trained_model.py           # Script para testes com modelo treinado
 │   └── modelo_lol_xgboost.pkl     # Modelo XGBoost salvo
 └── README.md
+```
 
 ---
 
