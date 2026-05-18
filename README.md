@@ -26,17 +26,17 @@ Com base em dados da API oficial da Riot Games, foi construído um modelo de cla
 
 ## 📂 Estrutura do Projeto
 ├── data/
-│ ├── matches_10min.csv # Dados brutos extraídos (10 min)
-│ └── matches_processed.csv # Dados tratados e enriquecidos
+│   ├── matches_10min.csv          # Dados brutos extraídos (10 min)
+│   └── matches_processed.csv      # Dados tratados e enriquecidos
 ├── scripts/
-│ ├── data_extraction.py # Coleta de dados via Riot API
-│ ├── data_processing.Rmd  # Limpeza e feature engineering (R)
-│ └── csv_builder.py     # Utiliza os dados extraidos da API para criar o dataset utilizado no modelo (Python)
+│   ├── data_extraction.py         # Coleta de dados via Riot API
+│   ├── data_processing.Rmd        # Limpeza e feature engineering (R)
+│   └── csv_builder.py             # Cria dataset usado no modelo
 ├── models/
-│ └── modelo_lol_xgboost.pkl # Modelo XGBoost treinado
-│ └── model_machine.py # Treinamento, avaliação e previsão (Python)
-│ └── trained_model.py # Modelo treinado, usado para testes (Python)
-├── README.md
+│   ├── model_machine.py           # Treinamento, avaliação e previsão
+│   ├── trained_model.py           # Script para testes com modelo treinado
+│   └── modelo_lol_xgboost.pkl     # Modelo XGBoost salvo
+└── README.md
 
 ---
 
