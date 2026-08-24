@@ -98,7 +98,7 @@ O modelo de Machine Learning conseguiu atingir 89% de acurácia usando apenas os
 |-------|------------|-----------|
 | gold_diff | Diferença de ouro Total | Quanto maior a vantagem de ouro do time azul, maior a probabilidade de vitória |
 | gold_sum_lanes | Soma de ouro nas 5 rotas | Reforça a importância da vantagem econômica distribuída |
-| dragon_diff | Diferença de dragões abatidos | Dragões conferem bónus permanentes e indicam controle do rio, que resulta em um controle do mapa |
+| dragon_diff | Diferença de dragões abatidos | Dragões conferem bônus permanentes e indicam controle do rio, que resulta em um controle do mapa |
 | voidgrubs_diff | Diferença de vastilarvas(voidgrubs) abatidos | Afeta a pressão nas torres e o ritmo de jogo |
 | kills_diff | Diferença de abates | Abates geram ouro e experiência, alimentando o snowball |
 
@@ -109,14 +109,14 @@ Interpretação:
 * Um time que chega aos 10 minutos com vantagem de ouro e controle de objetivos tem uma probabilidade de vitória muito superior.
 
 ### O modelo é confiável e generalizável 
-* O gap entre treino e teste é pequno (1.8 pontos percentuais), indicando que o modelo não sofre com overfitting.
+* O gap entre treino e teste é pequeno (1.8 pontos percentuais), indicando que o modelo não sofre com overfitting.
 * Em cenários extremos (ex: desvantagem de 8k de ouro), a confiança da previsão atinge > 99%, mostrando coerencia  com a realidade do jogo.
 * A validação com partidas reais do dataset confirmou que o modelo capturou corretamente a relação entre as variáveis.
 
-### Limitações e possivéis atualizações
+### Limitações e possíveis atualizações
 * O modelo foi treinado com dados de um patch específico do game (2026 S2). Mudanças no meta podem exigir um re-treino.
 * A inclusão de informações como composição de campeões (ex: winrate individual e sinergias) ou dados de visão poderiam aumentar ainda mais a acurácia.
 * Uma análise de drift ao longo dos patches ajudaria a determinar a frequência ideal de atualizações do modelo.
 
 ### Resumo
-O projeto demonstra que é possivel prever com alta precisão o desfecho de uma partida de LoL usando apenas estatísticas iniciais. O modelo desenvolvido server como base para análises mais aprofundadas ou para construção de ferramentas de apoio à decisão em cenários competitvos como o CBLOL (Campeonato Brasileiro de League of Legends). 
+O projeto demonstra que é possivel prever com alta precisão o desfecho de uma partida de LoL usando apenas estatísticas iniciais. O modelo desenvolvido serve como base para análises mais aprofundadas ou para construção de ferramentas de apoio à decisão em cenários competitivos como o CBLOL (Campeonato Brasileiro de League of Legends). 
